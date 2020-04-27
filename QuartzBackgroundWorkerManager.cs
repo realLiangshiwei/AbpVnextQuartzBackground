@@ -3,7 +3,7 @@ public class CustomQuartzBackgroundWorkerManager : IBackgroundWorkerManager, ISi
 {
     private readonly IScheduler _scheduler;
 
-    public QuartzBackgroundWorkerManager(IScheduler scheduler)
+    public CustomQuartzBackgroundWorkerManager(IScheduler scheduler)
     {
         _scheduler = scheduler;
     }
