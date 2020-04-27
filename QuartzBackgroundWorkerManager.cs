@@ -1,5 +1,5 @@
 [Dependency(ReplaceServices = true)]
-public class QuartzBackgroundWorkerManager : IBackgroundWorkerManager, ISingletonDependency
+public class CustomQuartzBackgroundWorkerManager : IBackgroundWorkerManager, ISingletonDependency
 {
     private readonly IScheduler _scheduler;
 
